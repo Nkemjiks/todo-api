@@ -35,6 +35,8 @@ group :development, :test do
   gem 'pry'
   gem 'rspec-rails', '~> 3.5'
   gem 'rubocop-rspec'
+  gem 'cucumber-rails', require: false
+  gem 'coveralls', require: false
   gem 'shoulda-matchers', '~> 3.1'
 end
 
